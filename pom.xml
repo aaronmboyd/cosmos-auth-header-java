@@ -10,8 +10,9 @@
 
     <properties>
         <azure-documentdb-version>2.0.0</azure-documentdb-version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>com.microsoft.azure</groupId>
