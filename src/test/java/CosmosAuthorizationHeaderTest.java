@@ -24,6 +24,9 @@ public class CosmosAuthorizationHeaderTest {
 
         try{
             header = cah.getHeader(verb, resourceType, resourceId, masterKey, date);
+
+            log.info("Creating authorization header using sample at https://docs.microsoft.com/en-us/rest/api/cosmos-db/access-control-on-cosmosdb-resources");
+            log.info("Test header: {}", header);
         }
         catch(UnsupportedEncodingException uee){
             log.error(uee.getMessage());
